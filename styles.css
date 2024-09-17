@@ -15,16 +15,22 @@ h1 {
     text-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
+h2, h3 {
+    color: #ffffff;
+}
+
 .ahorro {
     margin: 2.5rem;
 }
 
 input {
+    resize: none;
     border: none;
     border-radius: 12px;
     font-size: 16px;
     height: auto;
-    width: 9%;
+    min-width: 100px;
+    max-width: 150px;
     padding: 15px;
     background-color: #ffffff;
     color: #8a97a0;
@@ -76,6 +82,41 @@ input, button {
     margin-top: 20px;
     color: #b4b4b4;
     font-weight: bold;
+}
+
+#savings-status, #goal-status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#savings-status {
+    color: #6a1b9a;
+}
+
+#goal-status {
+    color: #2e7d32;
+}
+
+#savings-history {
+    color: #4a148c;
+    margin-top: 10px;
+}
+
+.button-main-check {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-main-check:hover {
+    background-color: #45a049;
+}
+
+.button-main-check:active {
+    background-color: #3e8e41;
 }
 
 h4{
