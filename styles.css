@@ -90,15 +90,15 @@ input, button {
 }
 
 #savings-status {
-    color: #6a1b9a;
+    color: #000000;
 }
 
 #goal-status {
-    color: #2e7d32;
+    color: #00da0b;
 }
 
 #savings-history {
-    color: #4a148c;
+    color: #ffa600;
     margin-top: 10px;
 }
 
